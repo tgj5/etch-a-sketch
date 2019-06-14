@@ -1,0 +1,13 @@
+.grid-square {
+    height: 50px;
+    width: 50px;
+}
+#main-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    height: 800px;
+    width: 800px;
+    border: 10px solid black;
+}
